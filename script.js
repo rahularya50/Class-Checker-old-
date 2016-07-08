@@ -32,5 +32,5 @@ function submit(){
 }
 
 $(document).ready(function() {
-  $(".js-example-basic-single").select2({placeholder: "Select a class", allowClear: true, data:Object.keys(clist)});
+  $("#code").select2({placeholder: "Select a class", allowClear: true, data:Object.keys(clist)});
 });
