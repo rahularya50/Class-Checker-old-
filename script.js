@@ -39,5 +39,5 @@ function submit(){
 }
 
 $(document).ready(function() {
-  $("#code").select2({placeholder: "Select a class", allowClear: true, data: Object.keys(clist)});
+  $("#code").select2({placeholder: "Select a class", allowClear: true, data: Object.keys(data)});
 });
