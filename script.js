@@ -24,7 +24,7 @@ function submit(){
 				x = x + clist[code][i] + "<br>";
 			}
 		}else{
-			x = x + "<br><br>Sorry! This isn't a Y12 class, so we don't have the student list for this particular class!";
+			x = x + "<br><br>Sorry! This isn't a Y10 or Y12 class, so we don't have the student list for this particular class!";
 		}
 		result.innerHTML = x;
 	}else{
